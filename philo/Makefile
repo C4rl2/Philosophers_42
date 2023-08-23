@@ -6,7 +6,7 @@
 #    By: cafraixe <cafraixe@student.42nice.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/08/02 13:48:18 by cafraixe          #+#    #+#              #
-#    Updated: 2023/08/23 13:16:07 by cafraixe         ###   ########.fr        #
+#    Updated: 2023/08/23 16:56:40 by cafraixe         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,7 +23,7 @@ SRCS		         =	main.c \
 OBJS				= ${SRCS:.c=.o}
 
 CC					= gcc
-CFLAGS  			= -Wall -Wextra -Werror -pthread -g3 -fsanitize=thread #-g3 -fsanitize=address
+CFLAGS  			= -Wall -Wextra -Werror -pthread #-g3 -fsanitize=thread #-g3 -fsanitize=address
 RM					= rm -f
 
 OBJ 				= $(OBJS)
